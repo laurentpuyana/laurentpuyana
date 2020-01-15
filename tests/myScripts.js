@@ -1,6 +1,6 @@
 var i;
 for (var i = 0; i < 8; i++) {
-  document.write("My Fith Loop: ")
+  document.write("For Loop: ")
   var answer= Math.random(2, i);
   document.write(answer + "<br />");
 }
