@@ -22,7 +22,7 @@ for(var i = 0; i <= end; i++)
 
 function myLoop2(){
 var start = document.getElementById("start").value;
-for(var i = start; i <= 0; i++)
+for(var i = start; i <= end; i++)
   {
     document.write('<p>' + i + '</p>');
   }
