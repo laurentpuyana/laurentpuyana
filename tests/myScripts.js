@@ -12,3 +12,18 @@ while(ind < 8)
     document.write(answer + "<br />");
     ind++;
   }
+function myLoop(){
+var end = document.getElementById("end").value;
+for(var i = 0; i <= end; i++)
+  {
+    document.write('<p>' + i + '</p>');
+  }
+}
+
+function myLoop2(){
+var start = document.getElementById("start").value;
+for(var i = start; i <= 0; i++)
+  {
+    document.write('<p>' + i + '</p>');
+  }
+}
